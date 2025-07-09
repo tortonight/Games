@@ -1,0 +1,32 @@
+SiiNunit
+{
+server_config : _nameless.2bfa.9830 {
+ lobby_name: "ATORLIGHT HK ETS2 Dedicated Server #1"
+ description: "atorlight.xyz | discord.gg/nF9ss2VTp9"
+ welcome_message: "Welcome to ATORLIGHT Convoy"
+ password: ""
+ max_players: 8
+ max_vehicles_total: 100
+ max_ai_vehicles_player: 50
+ max_ai_vehicles_player_spawn: 50
+ connection_virtual_port: 100
+ query_virtual_port: 101
+ connection_dedicated_port: 27015
+ query_dedicated_port: 27016
+ server_logon_token: EEF6E8852EA9F57CD57D4947437D9107
+ player_damage: true
+ traffic: true
+ hide_in_company: false
+ hide_colliding: true
+ force_speed_limiter: false
+ mods_optioning: false
+ timezones: 0
+ service_no_collision: false
+ in_menu_ghosting: false
+ name_tags: true
+ friends_only: false
+ show_server: true
+ moderator_list: 0
+}
+
+}
