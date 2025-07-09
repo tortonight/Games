@@ -26,7 +26,8 @@ server_config : _nameless.2bfa.9830 {
  name_tags: true
  friends_only: false
  show_server: true
- moderator_list: 0
+ moderator_list: 1
+ moderator_list[0]: 76561198196638689
 }
 
 }
