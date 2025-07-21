@@ -1,7 +1,7 @@
 Docker CLI
 ```
 services:
-  arma3server: ATL-ARMA3_1
+  arma3server:
     container_name: arma-server
     ports:
       - 2302:2302/udp
@@ -10,14 +10,18 @@ services:
       - 2305:2305/udp
       - 2306:2306/udp
     volumes:
-      - DATA/AppData/ATL-ARMA3/atl-arma3_1/missions:/arma3/mpmissions
-      - DATA/AppData/ATL-ARMA3/atl-arma3_1/configs:/arma3/configs
-      - DATA/AppData/ATL-ARMA3/atl-arma3_1/mods:/arma3/mods
-      - DATA/AppData/ATL-ARMA3/atl-arma3_1/servermods:/arma3/servermods
+      - /DATA/Gaming/atl-arma3/atl-arma3-1/missions:/arma3/mpmissions
+      - /DATA/Gaming/atl-arma3/atl-arma3-1/configs:/arma3/configs
+      - /DATA/Gaming/atl-arma3/atl-arma3-1/mods:/arma3/mods
+      - /DATA/Gaming/atl-arma3/atl-arma3-1/servermods:/arma3/servermods
     environment:
       - ARMA_CONFIG=main.cfg
       - STEAM_USER=tonight_01_gamer
       - STEAM_PASSWORD=Tor53985750
     image: ghcr.io/brettmayson/arma3server/arma3server:latest
 networks: {}
+```
+Write permissions on volume
+```
+chown -R 1000:1000 /DATA/Gaming/atl-arma3/*
 ```
