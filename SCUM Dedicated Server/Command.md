@@ -2,5 +2,9 @@
 
 god mode
 ```
-#setgodmode <True/False>
+#setgodmode true/false
+```
+Set. เสร็จอมตะ
+```
+#SetImmortality – true/false
 ```
