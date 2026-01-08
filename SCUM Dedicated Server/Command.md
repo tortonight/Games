@@ -1,4 +1,6 @@
 # In-Game Command:
+[Download](https://sqlitebrowser.org/dl/)
+
 Set DB
 ```
 INSERT INTO elevated_users (user_id) VALUES
