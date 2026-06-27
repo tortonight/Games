@@ -14,3 +14,6 @@ Set. เสร็จอมตะ
 ```
 #SetImmortality – true/false
 ```
+```
+76561198196638689[SetGodMode, ShutdownServer]
+```
